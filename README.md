@@ -22,7 +22,7 @@ Estas tablas son en base a una franquicia de tiendas de venta de productos de se
 
 | ARTÍCULOS |     |     |
 | --- | --- | --- |
-| **CÓDIGO** | Cadena de caracteres, tamaño 10 |     |
+| **CÓDIGO** | Cadena de caracteres, tamaño 5 |     |
 | NOMBRE | Cadena de caracteres, tamaño 15 |     |
 | _COD_VENDEDOR_ | Cadena de caracteres, tamaño 3 |     |
 | PESO | Numérico, tamaño hasta tres cifras y dos decimales |     |
@@ -34,7 +34,7 @@ Estas tablas son en base a una franquicia de tiendas de venta de productos de se
 | --- | --- | --- |
 | **CÓDIGO** | Cadena de caracteres, tamaño 10 |     |
 | _NOM_TIENDA_ | Cadena de caracteres, tamaño 10 |     |
-| _COD_ARTICULO_ | Cadena de caracteres, tamaño 3 |     |
+| _COD_ARTICULO_ | Cadena de caracteres, tamaño 5 |     |
 | FECHA_PEDIDO | De tipo fecha | El año deberá ser a partir del 2018 |
 | CANTIDAD | Numérico, tamaño hasta tres cifras | No puede ser menor que cero |
  
@@ -43,6 +43,6 @@ Estas tablas son en base a una franquicia de tiendas de venta de productos de se
 | --- | --- | --- |
 | **CÓDIGO** | Cadena de caracteres, tamaño 10 |     |
 | _NOM_TIENDA_ | Cadena de caracteres, tamaño 10 |     |
-| _COD_ARTICULO_ | Cadena de caracteres, tamaño 3 |     |
+| _COD_ARTICULO_ | Cadena de caracteres, tamaño 5 |     |
 | FECHA_COMPRA | De tipo fecha | A partir del 17 de marzo del 2018 |
 
