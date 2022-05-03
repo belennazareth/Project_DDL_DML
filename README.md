@@ -46,3 +46,26 @@ Estas tablas son en base a una franquicia de tiendas de venta de productos de se
 | _COD_ARTICULO_ | Cadena de caracteres, tamaño 5 |     |
 | FECHA_COMPRA | De tipo fecha | A partir del 17 de marzo del 2018 |
 
+Con respecto a este esquema:
+
+1. Añade a la tabla vendedores una nueva columna llamada TIPO, será de tipo varchar.
+
+2. Modificaremos el campo TIPO de la tabla vendedores para que indique si el vendedor es de una franquicia, autónomo o ninguna de estas pudiendo ser null.
+
+3. Elimina la columna PAIS de la tabla vendedores.
+
+4. Añade una restricción a la tabla artículos donde el CODIGO solo pueda tener números.
+
+5. Elimina la restricción de la tabla vendedores donde indica que los países solo irán en mayúsculas.
+
+6. En la tabla tiendas desactiva la restricción descrita sobre el NOMBRE, introduce un nombre con números y vuelve a activarla.
+
+Tras estas operaciones realiza las siguientes consultas:
+
+1. Mostrar por pantalla todos los artículos y su estado.
+
+2. Una vista donde aparezcan el código del pedido y la fecha del pedido.
+
+3. Mostrar los nombres de los vendedores y los articulos que venden.
+
+4. Mostrar toda la información de las tiendas y los pedidos.
