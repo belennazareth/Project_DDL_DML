@@ -78,4 +78,6 @@ Tras estas operaciones realiza las siguientes consultas:
 
 8. Mostrar nombre y país de los vendedores ordenados por el precio de venta de los artículos de forma ascendente.
 
-9. 
+9. Mostrar la media de pedidos realizados por cada tienda. Incluso la que no tenga pedido.
+
+10. 
