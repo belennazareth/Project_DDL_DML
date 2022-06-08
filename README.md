@@ -74,4 +74,8 @@ Tras estas operaciones realiza las siguientes consultas:
 
 6. Mostrar cada producto y el nombre del comprador.
 
-7. 
+7. Borra los artículos del vendedor Larry.
+
+8. Mostrar nombre y país de los vendedores ordenados por el precio de venta de los artículos de forma ascendente.
+
+9. 
