@@ -73,3 +73,5 @@ Tras estas operaciones realiza las siguientes consultas:
 5. En la tabla artículos aplica un 10% de descuento al precio de venta.
 
 6. Mostrar cada producto y el nombre del comprador.
+
+7. 
