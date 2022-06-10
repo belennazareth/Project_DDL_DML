@@ -76,7 +76,7 @@ Tras estas operaciones realiza las siguientes consultas:
 
 7. Borra los artículos del vendedor Larry.
 
-8. Mostrar nombre y país de los vendedores ordenados por el precio de venta de los artículos de forma ascendente.
+8. Mostrar nombre y país de los vendedores ordenados por el precio de venta de sus artículos de forma ascendente.
 
 9. Mostrar la media de pedidos realizados por cada tienda. Incluso la que no tenga pedido.
 
