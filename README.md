@@ -68,7 +68,7 @@ Tras estas operaciones realiza las siguientes consultas:
 
 3. Mostrar los nombres de los vendedores y los articulos que venden.
 
-4. Mostrar toda la información de las tiendas y los pedidos.
+4. Mostrar toda la información de las tiendas y la cantidad de pedidos que realizan.
 
 5. En la tabla artículos aplica un 10% de descuento al precio de venta.
 
