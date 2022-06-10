@@ -72,7 +72,7 @@ Tras estas operaciones realiza las siguientes consultas:
 
 5. En la tabla artículos aplica un 10% de descuento al precio de venta.
 
-6. Mostrar cada producto y el nombre del comprador.
+6. Mostrar cada producto y el código del cliente donde la fecha sea la máxima registrada.
 
 7. Borra los artículos del vendedor Larry.
 
