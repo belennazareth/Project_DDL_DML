@@ -81,3 +81,7 @@ Tras estas operaciones realiza las siguientes consultas:
 9. Mostrar la media de pedidos realizados por cada tienda. Incluso la que no tenga pedido.
 
 10. Mostrar el nombre del artículo y el vendedor al que pertenece.
+
+11. Listar el nombre de cada tienda con el código y  fecha del producto con mayor cantidad de pedidos.
+
+12. Mostrar el nombre y pais de los vendedores, además de los articulos que venden junto con su precio de venta y el nombre de la tienda que los vende con formato tabla. 
