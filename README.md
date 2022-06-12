@@ -80,4 +80,4 @@ Tras estas operaciones realiza las siguientes consultas:
 
 9. Mostrar la media de pedidos realizados por cada tienda. Incluso la que no tenga pedido.
 
-10. 
+10. Mostrar el nombre del artículo y el vendedor al que pertenece.
