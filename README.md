@@ -95,4 +95,4 @@ Tras estas operaciones realiza las siguientes consultas:
     - Donde se vean tanto las que tienen pedidos rechazados como las que no.
     - Las que se encuentren en ambas tablas.
 
-16. 
+16. Mostrar información de los artículos cuyo precio de venta es igual que el máximo de esa misma tabla.
