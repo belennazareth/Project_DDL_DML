@@ -86,6 +86,6 @@ Tras estas operaciones realiza las siguientes consultas:
 
 12. Mostrar el nombre y país de los vendedores además del nombre del artículo donde el precio de venta sea el mayor.
 
-13. Mostrar la media de pedidos realizados por cada tienda, incluso los que no tienen pedidos. 
+13. Mostrar la media de pedidos realizados por cada tienda con cantidad superior a dos, incluso los que no tienen pedidos. 
 
 14. 
