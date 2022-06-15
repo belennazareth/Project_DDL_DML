@@ -89,3 +89,10 @@ Tras estas operaciones realiza las siguientes consultas:
 13. Mostrar la media de pedidos realizados por cada tienda con cantidad superior a dos, incluso los que no tienen pedidos. 
 
 14. Crea una tabla de pedidos rechazados con las mismas columnas que la tabla pedidos e inserta los pedidos realizados de 2022 en adelante como pedidos rechazados.
+
+15. Mostrar los nombres de las tiendas en los siguientes casos:
+    - En las que los pedidos no han sido rechazados.
+    - Donde se vean tanto las que tienen pedidos rechazados como las que no.
+    - Las que se encuentren en ambas tablas.
+
+16. 
