@@ -78,10 +78,14 @@ Tras estas operaciones realiza las siguientes consultas:
 
 8. Mostrar nombre y país de los vendedores ordenados por el precio de venta de sus artículos de forma ascendente.
 
-9. Mostrar la media de pedidos realizados por cada tienda. Incluso la que no tenga pedido.
+9. Mostrar la media de pedidos realizados. 
 
 10. Mostrar el nombre del artículo y el vendedor al que pertenece.
 
 11. Listar el nombre de cada tienda con el código y  fecha del producto con mayor cantidad de pedidos.
 
-12. Mostrar el nombre y país de los vendedores además del nombre del artículo donde el precio de venta sea el mayor. 
+12. Mostrar el nombre y país de los vendedores además del nombre del artículo donde el precio de venta sea el mayor.
+
+13. Mostrar la media de pedidos realizados por cada tienda, incluso los que no tienen pedidos. 
+
+14. 
