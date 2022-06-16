@@ -86,7 +86,7 @@ Tras estas operaciones realiza las siguientes consultas:
 
 12. Mostrar el nombre y país de los vendedores además del nombre del artículo donde el precio de venta sea el mayor.
 
-13. Mostrar la media de pedidos realizados por cada tienda con cantidad superior a dos, incluso los que no tienen pedidos. 
+13. Mostrar la media de pedidos realizados por cada tienda, incluso los que no tienen pedidos. 
 
 14. Crea una tabla de pedidos rechazados con las mismas columnas que la tabla pedidos e inserta los pedidos realizados de 2022 en adelante como pedidos rechazados.
 
@@ -96,3 +96,5 @@ Tras estas operaciones realiza las siguientes consultas:
     - Las que se encuentren en ambas tablas.
 
 16. Mostrar información de los artículos cuyo precio de venta es igual que el máximo de esa misma tabla.
+
+17. Mostrar el nombre de la tienda y la cantidad de pedidos con más de dos pedidos realizados. 
