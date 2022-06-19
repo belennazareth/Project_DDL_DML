@@ -105,7 +105,7 @@ A continuación, realiza:
 
         1. Elabora una función que reciba el estado y devuelva el número de artículos que existen en ese estado.
 
-        2. Elabora una función que reciba una categoría y devuelva el nombre de la tienda y la cantidad total de pedidos de esa categoría.
+        2. Elabora una función que reciba una categoría y devuelva la cantidad total de pedidos de esa categoría.
 
     --Procedimientos:
 
