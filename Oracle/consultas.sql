@@ -235,20 +235,55 @@
 
     INSERT INTO PEDIDOS VALUES ('3552','Babobibo','586',to_date('2019-05-18','YYYY-MM-DD'),1);
 
---2 SEGURIDAD. Realiza un trigger que impida que un usuario pueda modificar un pedido que no sea suyo.
+--2 
 
-    CREATE OR REPLACE TRIGGER TR_PEDIDO_USUARIO 
-    BEFORE UPDATE ON PEDIDOS
+    CREATE OR REPLACE TRIGGER TR_CATEGORIA
+    BEFORE INSERT ON TIENDAS
     FOR EACH ROW
     BEGIN
-        IF :NEW.COD_USUARIO != :OLD.COD_USUARIO THEN
-            RAISE_APPLICATION_ERROR(-20001, 'No puedes modificar un pedido que no sea tuyo');
+        IF :NEW.CATEGORIAS = 'Restauración' OR :NEW.CATEGORIAS = 'Ocio' THEN
+            RAISE_APPLICATION_ERROR(-20001, 'La categoría no puede ser Restauración u Ocio');
         END IF;
     END;
     /
 
-    INSERT INTO PEDIDOS VALUES ('3542','Babobibo','586',to_date('2019-05-18','YYYY-MM-DD'),1);
+    INSERT INTO TIENDAS VALUES ('Babobibo','Sevilla','Restauración',41700);
 
---3 AUDITORÍA. Realiza un trigger que registre en una tabla de auditoría cada vez que se modifica un pedido y que muestre el nombre del usuario que lo modificó y la fecha de modificación.
+--3 
+
+    CREATE TABLE AUDITORIA (
+        NOMBRE VARCHAR2(30),
+        FECHA_MODIFICACION DATE,
+        CONSTRAINT PK_AUDITORIA PRIMARY KEY (NOMBRE,FECHA_MODIFICACION)
+    );
+
+    CREATE OR REPLACE TRIGGER TR_AUDITORIA
+    BEFORE UPDATE ON PEDIDOS
+    FOR EACH ROW
+    BEGIN
+        INSERT INTO AUDITORIA VALUES (USER, SYSDATE);
+    END;
+    /
+
+    UPDATE PEDIDOS SET CANTIDAD = 2 WHERE NOM_TIENDA = 'Babobibo';
 
 --4 INTEGRIDAD DE DATOS. Realiza un trigger que permita únicamente a la tienda Letters vender el artículo "Cuadernos".
+
+    CREATE OR REPLACE TRIGGER TR_CUADERNOS
+    BEFORE INSERT ON PEDIDOS
+    FOR EACH ROW
+    DECLARE
+        V_COD_CUADERNOS ARTICULOS.CODIGO%TYPE;
+    BEGIN
+        SELECT CODIGO INTO V_COD_CUADERNOS
+        FROM ARTICULOS
+        WHERE NOMBRE = 'Cuadernos';
+        IF :NEW.NOM_TIENDA != 'Letters' AND :NEW.COD_ARTICULO = V_COD_CUADERNOS  THEN
+            RAISE_APPLICATION_ERROR(-20001, 'Solo Letters puede vender Cuadernos');
+        END IF;
+    END;
+    /
+
+    INSERT INTO ARTICULOS VALUES ('1124','Cuadernos','359',0.5,'Nuevo',3);
+    INSERT INTO PEDIDOS VALUES ('2830','Babobibo','1124',to_date('2022-07-18','YYYY-MM-DD'),5);
+

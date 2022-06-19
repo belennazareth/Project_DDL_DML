@@ -128,7 +128,7 @@ A continuación, realiza:
 
         1. SISTEMA. Realiza un trigger que impida meter pedidos de fecha anterior a la fecha de hoy.
 
-        2. SEGURIDAD. Realiza un trigger que impida que un usuario pueda modificar un pedido que no sea suyo.
+        2. SEGURIDAD. Realiza un trigger que impida que un usuario pueda introducir en la tabla tiendas una categoría 'Restauración' u 'Ocio'.
 
         3. AUDITORÍA. Realiza un trigger que registre en una tabla de auditoría cada vez que se modifica un pedido y que muestre el nombre del usuario que lo modificó y la fecha de modificación.
 
