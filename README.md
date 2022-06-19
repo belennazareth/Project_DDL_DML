@@ -134,7 +134,7 @@ A continuación, realiza:
 
         4. INTEGRIDAD DE DATOS. Realiza un trigger que permita únicamente a la tienda Letters vender el artículo "Cuadernos".
 
-        5. INTEGRIDAD REFERENCIAL. Reaaliza un trigger que actualice en cascada el nombre del vendedor en la tabla artículos cuando se modifica el nombre del vendedor en la tabla vendedores.
+        5. INTEGRIDAD REFERENCIAL. Realiza un trigger que actualice en cascada el nombre del vendedor en la tabla artículos cuando se modifica el nombre del vendedor en la tabla vendedores.
 
         6. REPLICACIÓN DE TABLAS. Realiza un trigger que replique la tabla artículos en la tabla artículos_replica.
 
